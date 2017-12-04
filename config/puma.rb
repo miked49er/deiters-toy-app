@@ -37,7 +37,7 @@ preload_app!
 
 
 rackup      DefaultRackup
-port        ENV['PORT']     || 3000
+port        ENV['PORT']     || 4000
 environment ENV['RACK_ENV'] || 'development'
 # If you are preloading your application and using Active Record, it's
 # recommended that you close any connections to the database before workers
